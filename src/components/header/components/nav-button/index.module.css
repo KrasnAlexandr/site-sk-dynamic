@@ -1,0 +1,16 @@
+.button {
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: var(--common-button);
+  outline: 2px solid var(--common-button);
+  color: var(--main-white-color);
+  width: 220px;
+  height: 50px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.button_active {
+  background: var(--active-button);
+}

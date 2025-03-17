@@ -1,0 +1,17 @@
+:root {
+  --main-white-color: rgb(255, 255, 255);
+  --common-button: rgb(232, 135, 64);
+  --active-button: rgb(234, 51, 35);
+  --second-text: rgb(55, 94, 146);
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+}

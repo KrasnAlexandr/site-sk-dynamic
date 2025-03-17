@@ -1,0 +1,56 @@
+.header {
+  padding: 40px 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 1440px;
+  position: fixed;
+  z-index: 5;
+  background-color: var(--main-white-color);
+}
+
+.content {
+  width: calc(100% - 130px);
+  margin: 0 90px 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.contact_phone {
+  font-size: 32px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  transition: color ease 0.4s;
+}
+
+.contact_phone:hover {
+  color: var(--common-button);
+}
+
+.contact_email {
+  font-size: 24px;
+  font-weight: 400;
+  align-self: flex-end;
+  color: var(--second-text);
+  transition: color ease 0.4s;
+}
+
+.contact_email:hover {
+  color: var(--common-button);
+}
+
+.nav {
+  width: calc(100% - 50px);
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
