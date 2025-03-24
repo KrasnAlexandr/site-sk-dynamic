@@ -7,7 +7,7 @@
   margin: 300px auto 0;
 }
 
-.grid {
+.container {
   width: calc(100% - 120px * 2);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -28,3 +28,33 @@
 .description {
   color: var(--second-text);
 }
+
+@media (max-width: 1024px) {
+  .section {
+    width: calc(100% - 24px * 2);
+    margin: 320px auto 50px;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .section {
+    width: calc(100% - 8px * 2);
+    margin: 25px auto;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+

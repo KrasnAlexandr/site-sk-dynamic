@@ -50,3 +50,17 @@
   outline: none;
   border: none;
 }
+
+@media (max-width: 1024px) {
+  .section {
+    width: calc(100% - 24px * 2);
+    margin: 320px auto 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: calc(100% - 8px * 2);
+    margin: 25px auto;
+  }
+}

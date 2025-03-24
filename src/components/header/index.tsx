@@ -7,7 +7,7 @@ import { COMPANY_EMAIL, COMPANY_PHONE_NUMBER } from '@/_constants';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 
-const NAV_BUTTON = [
+const NAV_BUTTON: Array<{ label: string; pathname: string }> = [
   { label: 'Главная', pathname: '/' },
   { label: 'Услуги', pathname: '/services' },
   { label: 'Охрана труда', pathname: '/labor-protection' },

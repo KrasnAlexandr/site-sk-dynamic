@@ -36,7 +36,7 @@ const GRID_ITEM = [
 export const ServicesSection = () => {
   return (
     <section className={styles.section}>
-      <div className={styles.grid}>
+      <div className={styles.container}>
         {GRID_ITEM.map((item, index) => (
           <div key={index} className={styles.item}>
             <h2 className={styles.subtitle}>{item.title}</h2>
